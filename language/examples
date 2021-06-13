@@ -1,0 +1,9 @@
+~ LANGUAGE EXAMPLES ~ 
+
+# Print 
+(print "Hello World!")
+
+# Using a custom print function
+(logger.print
+    "Hello World!")
+

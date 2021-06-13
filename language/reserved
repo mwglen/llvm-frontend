@@ -1,0 +1,48 @@
+~ RESERVED FUNCTIONS AND KEYWORDS ~
+
+~ Functions ~
+~
+Name    Description
+--------------------------------
+print   prints to C standard out
+if      conditional function
+
+
+
+
+~
+
+~ Operators ~
+~
+Name    Description
+--------------------------------
++       Addition
+-       Subtraction
+*       Multiplication
+/       Division
+%       Modulo
+
+
+
+
+
+~
+
+# print: prints to C standard out
+# Takes an arbitrary number of arguments and prints all of them
+print "Hello World!" "\n Hello Again!"
+
+# if: conditional function
+#   Takes an arbitrary number of arguments.
+#     - The first argument is a boolean expression
+#     - The second argument is an expression to evaluate if true
+#     - The third argument (optional) is one of the following keywords 
+#       including else and elif
+
+if (3 == 2) (print "3 is 2") else (print "3 is not 2") 
+
+if (3 == 2) {
+    print "3 is 2"
+} else {
+    print "3 is not 2"
+}

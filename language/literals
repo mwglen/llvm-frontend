@@ -1,0 +1,52 @@
+~ LITERALS ~
+
+~ Other Types ~
+~
+    Type        Example
+    --------------------
+    boolean     true
+    lists       (a b c)
+    vectors     [1 2 3]
+    maps        {a: 1, b: 2}
+~
+
+~ Types of Numbers ~
+~
+    Type        Example
+    --------------------
+    Binary      0x32
+    Octal       032
+    Integer     32
+    Float       32.
+
+    All number literals alllow _ as a visual separator: 1_234.0
+
+    Floating-point numbers can contain scientific notation: 1.0E-8
+~
+
+~ Escape Characters ~
+~
+    Code    Name
+    -----------------------
+    \'      Single Quote
+    \"      Double Quote
+~
+
+~ Ascii Escape Characters ~
+~
+    Code    Name
+    ----------------------------
+    \x41    8-bit Character Code
+    \n      Newline
+    \r      Carriage Return
+    \t      Tab
+    \\      Backslash
+    \0      Null
+~
+
+~ Unicode Escape Characters ~
+~
+    Code    Name
+    ------------------------------------
+    \u{7FFF}    24-bit Unicode Character
+~
